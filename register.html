@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emre Apa Fan Club</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Emre Apa Fan Club'ın Bir Parçası Olun(Kalıcı olarak)</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="register.html">Kayıt Olun</a></li>
+                <li><a href="gallery.html">Fotoğraf Galerisi</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Kayıt Formu</h2>
+            <form id="registration-form">
+                <label for="name">İsminiz:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <br> <br>
+                
+                <label for="email">Email adresiniz:</label>
+                <input type="email" id="email" name="email" required>
+                <br> <br>
+                <label for="ccnum">Kredi kartı numaranız(Opsiyonel)(Canınız isterse):</label>
+                <input type="ccnum" id="ccnum" name="ccnum">
+                <br> <br>
+                
+                <label for="cvc">Kredi kartınızın arkasındaki 3 basamaklı komik sayı(Opsiyonel)(Eğlence olsun diye):</label>
+                <input type="cvc" id="cvc" name="cvc">
+                <br> <br>
+                <label for="exp">Kredi kartınız kendisini hangi tarihe kadar kullandırıyor?(Opsiyonel)(Meraktan soruyorum):</label>
+                <input type="exp" id="exp" name="exp">
+                <br> <br>
+                <button type="submit">Kayıt Olun!</button>
+            </form>
+            <p id="success-message"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Emre Apa Fan Club. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
